@@ -1,3 +1,2 @@
 # HealthLens
-
-AI-powered health assistant with question-answering and hospital locator features.
+AI-powered health assistant for medical Q&amp;A and locating nearby hospitals
