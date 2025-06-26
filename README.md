@@ -2,7 +2,6 @@
 
 HealthLens is an AI-powered health assistant web application that allows users to ask medical-related questions, analyze symptoms, and access the latest healthcare news. It integrates secure authentication, intelligent question answering via OpenAI, and a curated news system to enhance personal health awareness.
 
----
 
 ## Objective
 
@@ -10,7 +9,6 @@ To help users make informed decisions by providing a conversational AI interface
 
 This tool is intended for educational and preliminary assistance purposes only and does not replace professional medical advice.
 
----
 
 ## Key Features
 
@@ -21,7 +19,6 @@ This tool is intended for educational and preliminary assistance purposes only a
 - Mobile-friendly, responsive interface
 - Token-based route protection for secure access
 
----
 
 ## Technologies Used
 
@@ -41,7 +38,7 @@ This tool is intended for educational and preliminary assistance purposes only a
 - JWT for authentication
 - bcrypt.js for password hashing
 
----
+
 
 ## Goals Achieved
 
@@ -51,21 +48,18 @@ This tool is intended for educational and preliminary assistance purposes only a
 - Fetched live news updates via external health APIs
 - Deployed full-stack app on Vercel (frontend) and Render (backend)
 
----
 
 ## Deployment
 
 - Frontend: [https://health-lens-flame.vercel.app](https://health-lens-flame.vercel.app)
 - Backend: [https://healthlens-backend.onrender.com](https://healthlens-backend.onrender.com)
 
----
 
 ## Target Users
 
 - Users seeking AI-based assistance for health-related questions
 - Individuals wanting to stay informed with current health news
 
----
 
 ## Future Enhancements
 
