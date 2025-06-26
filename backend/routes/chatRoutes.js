@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const ChatHistory = require('../models/ChatHistory');
+const ChatHistory = require('../models/chatHistory');
 const protect = require('../middleware/auth');
 
 router.get('/history', protect, async (req, res) => {
