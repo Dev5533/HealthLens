@@ -1,11 +1,11 @@
-// src/App.js
+
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Login from './components/Login';
 import Register from './components/Register';
 import Chat from './components/Chat';
-import Profile from './components/Profile'; // Make sure this exists
-import CustomNavbar from './components/Navbar'; // If not already added
+import Profile from './components/Profile'; 
+import CustomNavbar from './components/Navbar'; 
 import ChatHistory from './components/ChatHistory';
 import News from './components/News';
 import HospitalMap from './components/HospitalMap';
