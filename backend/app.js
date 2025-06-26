@@ -11,7 +11,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-  origin: 'https://health-lens-flame.vercel.app/',  // allow frontend origin
+  origin: 'https://health-lens-flame.vercel.app',  // allow frontend origin
   credentials: true
 }));
 app.use(express.urlencoded({ extended: true })); 
