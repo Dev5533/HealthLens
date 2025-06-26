@@ -2,7 +2,7 @@ const axios = require('axios');
 const User = require('../models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const ChatHistory = require('../models/ChatHistory');
+const ChatHistory = require('../models/chatHistory');
 
 // =======================
 // Register a new user
