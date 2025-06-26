@@ -3,6 +3,8 @@
 HealthLens is an AI-powered health assistant web application that allows users to ask medical-related questions, analyze symptoms, and access the latest healthcare news. It integrates secure authentication, intelligent question answering via OpenAI, and a curated news system to enhance personal health awareness.
 
 
+
+
 ## Objective
 
 To help users make informed decisions by providing a conversational AI interface, access to current health news, and a user-friendly platform for managing personal health data.
