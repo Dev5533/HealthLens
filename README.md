@@ -53,7 +53,7 @@ This tool is intended for educational and preliminary assistance purposes only a
 ## Deployment
 
 - Frontend: [https://health-lens-flame.vercel.app](https://health-lens-flame.vercel.app)  
-- Backend: [https://healthlens-backend.onrender.com](https://healthlens-backend.onrender.com)
+
 
   
 ## Target Users
