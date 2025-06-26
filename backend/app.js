@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const newsRoutes = require('./routes/newsRoutes');
-const ChatHistory = require('./models/ChatHistory');
+const ChatHistory = require('./models/chatHistory');
 
 dotenv.config();
 
