@@ -9,7 +9,6 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors());
 app.use(express.json());
 app.use(cors({
   origin: 'https://health-lens-flame.vercel.app/',  // allow frontend origin
