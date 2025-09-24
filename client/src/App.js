@@ -32,7 +32,7 @@ const App = () => {
   return (
     <Router>
       <CustomNavbar isLoggedIn={isLoggedIn} handleLogout={handleLogout} />
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={isLoggedIn ? <Chat /> : <Navigate to="/login" />} />
         <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedIn} />} />
         <Route path="/register" element={<Register setIsLoggedIn={setIsLoggedIn} />} />
@@ -40,6 +40,15 @@ const App = () => {
         <Route path="/history" element={<ChatHistory />} />
         <Route path="/news" element={<News />} />
         <Route path="/hospitals" element={<HospitalMap />} />
+      </Routes> */}
+      <Routes>
+        <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedIn} />} />
+        <Route path="/register" element={<Register setIsLoggedIn={setIsLoggedIn} />} />
+        <Route path="/" element={isLoggedIn ? <Chat /> : <Navigate to="/login" />} />
+        <Route path="/profile" element={isLoggedIn ? <Profile /> : <Navigate to="/login" />} />
+        <Route path="/history" element={isLoggedIn ? <ChatHistory /> : <Navigate to="/login" />} />
+        <Route path="/news" element={isLoggedIn ? <News /> : <Navigate to="/login" />} />
+        <Route path="/hospitals" element={isLoggedIn ? <HospitalMap /> : <Navigate to="/login" />} />
       </Routes>
     </Router>
   );
